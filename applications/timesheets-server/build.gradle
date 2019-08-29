@@ -4,6 +4,3 @@ dependencies {
     compile project(":components:timesheets")
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker"
 }
-bootRun.environment([
-        "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
-])

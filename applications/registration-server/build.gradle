@@ -5,6 +5,3 @@ dependencies {
     compile project(":components:projects")
     compile project(":components:users")
 }
-bootRun.environment([
-        "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
-])
